@@ -1,4 +1,6 @@
-public class HelloWorldExercises { //Public class named HelloWorldExercises
+package FirstSteps01;
+
+public class BHelloWorldExercises { //Public class named HelloWorldExercises
     public static void main(String[] args) { //Main method return void
         System.out.println("Camilo"); // Print in line my name
         System.out.println("""
