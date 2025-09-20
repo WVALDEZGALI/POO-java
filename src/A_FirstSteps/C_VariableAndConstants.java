@@ -1,6 +1,6 @@
-package FirstSteps01;
+package A_FirstSteps;
 
-public class CVariableAndConstants {
+public class C_VariableAndConstants {
     public static void main(String[] args) {
         String name = "Camilo";
         System.out.println(name);
