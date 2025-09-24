@@ -1,6 +1,6 @@
 package B_Operators;
 
-public class B_OperatorsExercises {
+public class OperatorsExercises {
     public static void main(String[] args) {
 
         // 1. Create a variable with the result of each arithmetic operation

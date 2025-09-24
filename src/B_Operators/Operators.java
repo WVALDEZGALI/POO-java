@@ -1,6 +1,6 @@
 package B_Operators;
 
-public class A_Operators {
+public class Operators {
     public static void main(String[] args) {
 
         double a = 8;

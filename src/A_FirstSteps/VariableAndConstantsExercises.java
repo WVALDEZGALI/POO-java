@@ -1,6 +1,6 @@
 package A_FirstSteps;
 
-public class E_VariableAndConstantsExercises {
+public class VariableAndConstantsExercises {
     public static void main(String[] args) {
         String myName = "Camilo"; // 1. Declare a variable of type chain text and name it after it.
         System.out.println(myName);

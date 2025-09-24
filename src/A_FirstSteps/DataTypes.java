@@ -1,6 +1,6 @@
 package A_FirstSteps;
 
-public class D_DataTypes {
+public class DataTypes {
     public static void main(String[] args) {
         // Primitive Data Types.
         int myInt = 37; //Integer without decimals.

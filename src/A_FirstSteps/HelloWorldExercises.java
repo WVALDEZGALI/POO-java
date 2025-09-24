@@ -1,6 +1,6 @@
 package A_FirstSteps;
 
-public class B_HelloWorldExercises { //Public class named HelloWorldExercises
+public class HelloWorldExercises { //Public class named HelloWorldExercises
     public static void main(String[] args) { //Main method return void
         System.out.println("Camilo"); // Print in line my name
         System.out.println("""

@@ -1,13 +1,13 @@
 package C_Strings;
 
-public class B_StringsExercises {
+public class StringsExercises {
     public static void main(String[] args) {
 
         String month = "December";
         String day = "Six";
         int number = 12;
 
-        // 1. 1. Concatenate two text strings.
+        // 1. Concatenate two text strings.
         System.out.println(month + " " + day);
 
         // 2. Shows the length of a text string.

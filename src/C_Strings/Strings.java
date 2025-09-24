@@ -1,6 +1,6 @@
 package C_Strings;
 
-public class A_Strings {
+public class Strings {
     public static void main(String[] args) {
 
          String name = "Camilo";
