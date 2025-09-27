@@ -17,7 +17,7 @@ public class List {
 
         // Add elements
 
-        names.add("Camilo"); numbers.add(1);
+        names.add("Camilo"); numbers.add(1); // Add values one by one.
         names.add("Ana"); numbers.add(2);
         names.add("Mario"); numbers.add(3);
         System.out.println(names.size());
@@ -35,7 +35,19 @@ public class List {
         names.set(0, "Oscar");
         System.out.println(names.getFirst());
 
+        // Delete
 
+        names.remove(2); // Delete a piece of data according to its index.
+        System.out.println(names);
+
+        // Search
+
+        System.out.println(names.contains("Oscar"));
+        System.out.println(names.contains("Camilo"));
+
+        // Clean
+
+        numbers.clear(); // Clean the entire arraylist.
+        System.out.println(numbers);
     }
-
 }
