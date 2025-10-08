@@ -82,5 +82,23 @@ public class Loops {
             System.out.println("Hello JAVA: " + i);
             i++;
         } while (i < 5);
+
+        // break
+
+        for (String name: names) {
+            if (name.equalsIgnoreCase("olga")) {
+                break;
+            }
+            System.out.println(name);
+        }
+
+        // continue
+
+        for (int p = 1; p <= 10; p++) {
+            if (p == 6) {
+                continue;
+            }
+            System.out.println("Hello JAVA: " + p);
+        }
     }
 }
