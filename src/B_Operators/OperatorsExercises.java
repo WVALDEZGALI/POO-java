@@ -66,13 +66,5 @@ public class OperatorsExercises {
 
         // 10. It combines arithmetic, comparison and logical operators.
         System.out.println((a + b == c - d) && (e * f > a / b));
-
-
-
-
-
-
-
-
     }
 }
