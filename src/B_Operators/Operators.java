@@ -12,6 +12,8 @@ public class Operators {
         System.out.println(a / b); // divide
         System.out.println(a % b); // remainder
 
+        System.out.println("assignment operators");
+
         // assignment operators
         a = b;
         System.out.println(a);

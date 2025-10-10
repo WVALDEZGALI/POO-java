@@ -167,10 +167,19 @@ public class LoopsExercises {
         System.out.println("Exercise 10: Create a program that calculates the factorial of a given number.");
         System.out.println();
 
+        System.out.println("Enter a positive integer: ");
         Scanner enter = new Scanner(System.in);
         int factorialNumber = enter.nextInt();
 
-        System.out.println("Enter a positive integer: ");
+
+        int factorial = 1;
+        for (int i = 1; i <= factorialNumber; i++) {
+            factorial *= i;
+        }
+        System.out.println("El factorial de " + factorialNumber + " es " + factorial);
+
+        enter.close();
+
 
 
 
