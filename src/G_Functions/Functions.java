@@ -12,6 +12,11 @@ public class Functions {
         var users = new ArrayList<>(Arrays.asList("Camiloga17310@gmail.com", "Annyga2030@hotmail.com", "Holamundo@gmail.com"));
         sendEmailToUser(users);
 
+        var state = sendEmailWithState("camiloga17310@gmail.com");
+        System.out.println(state);
+
+        System.out.println(sendEmailWithState(""));
+
     }
 
     // Function without parameters or return
@@ -34,10 +39,19 @@ public class Functions {
 
     public static void sendEmailToUser(ArrayList<String> emails) {
         for (String email: emails) {
-            System.out.println("The mail is sent to " + email);
+            sendEmailToUser(email);
         }
 
     }
 
+    // Return function
 
+    public static boolean sendEmailWithState(String email) {
+        if (email.isEmpty()){
+            return false; // The moment a function returns, execution ends
+        }
+
+        System.out.println("The mail is sent to " + email);
+        return true;
+    }
 }
