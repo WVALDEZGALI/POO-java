@@ -1,5 +1,7 @@
 package G_Functions;
 
+import java.util.Arrays;
+
 public class FunctionsExercises {
     public static void main(String[] args) {
 
@@ -61,11 +63,23 @@ public class FunctionsExercises {
             System.out.println("The person is a minor.");
         }
 
+        // 7. Implements a function that receives a string and returns its length.
 
+        System.out.println();
+        System.out.println("7. Implements a function that receives a string and returns its length.");
+        System.out.println();
 
+        int sizeLength = length("Legendary");
+        System.out.println("And its length is: " + sizeLength);
 
+        // 8. Create a method that receives an array of integers, calculate its mean and do so return.
 
+        System.out.println();
+        System.out.println("8. Create a method that receives an array of integers, calculate its mean and do so return.");
+        System.out.println();
 
+        double numbersAverage = average(5,6,7,8,9);
+        System.out.println("And ist average is: " + numbersAverage);
 
 
     }
@@ -93,7 +107,24 @@ public class FunctionsExercises {
         return numRemainder % 2;
     }
 
-    public static boolean age(Integer numAge) {
+    public static boolean age(Integer numAge) { // Exercise 6.
+        System.out.println("The age entered is: " + numAge);
         return numAge >= 18;
     }
+
+    public static int length(String size) { // Exercise 7.
+        System.out.println("The text string entered is: " + size);
+        return size.length();
+    }
+
+    public static double average(int... numbers) { // Exercise 8.
+        System.out.println("The numbers entered are: " + Arrays.toString(numbers));
+        System.out.println();
+        int sum = 0;
+        for (int number : numbers){
+            sum += number;
+        }
+        return (double) sum / numbers.length;
+    }
+
 }
