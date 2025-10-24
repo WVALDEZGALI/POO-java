@@ -1,5 +1,6 @@
 package G_Functions;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class FunctionsExercises {
@@ -81,6 +82,30 @@ public class FunctionsExercises {
         double numbersAverage = average(5,6,7,8,9);
         System.out.println("And ist average is: " + numbersAverage);
 
+        // 9. Write a method that receives a number and returns its factorial.
+
+        System.out.println();
+        System.out.println("9. Write a method that receives a number and returns its factorial.");
+        System.out.println();
+
+        int factorialTotal = factorial(0);
+        System.out.println("And its factorial is: " + factorialTotal);
+
+        // 10. Create a function that receives an ArrayList<String> and scrolls through it showing each element.
+
+        System.out.println();
+        System.out.println("10. Create a function that receives an ArrayList<String> and scrolls through it showing each element.");
+        System.out.println();
+
+        ArrayList<String> places = new ArrayList<>();
+        places.add("Colombia");
+        places.add("Argentina");
+        places.add("Morocco");
+        places.add("Oman");
+        places.add("Denmark");
+
+        int count = stack(places);
+        System.out.println("You entered " + count + " countries.");
 
     }
 
@@ -127,4 +152,21 @@ public class FunctionsExercises {
         return (double) sum / numbers.length;
     }
 
+    public static int factorial(int factorialNumber){ // Exercise 9.
+        System.out.println("The number entered is: " + factorialNumber);
+        System.out.println();
+        int f = 1;
+        for (int i = 1; i <= factorialNumber; i++) {
+            f *= i;
+        }
+        return f;
+    }
+
+    public static int stack(ArrayList<String> countries){ // Exercise 10.
+        System.out.println("The countries entered are:");
+        for (String country : countries) {
+            System.out.println(country);
+        }
+        return countries.size();
+    }
 }
