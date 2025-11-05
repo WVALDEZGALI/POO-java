@@ -2,7 +2,7 @@ package H_OOP;
 
 public class Person {
 
-    // Attributes
+    // Attributes = characteristics
 
     String name;
     int age;
@@ -14,7 +14,7 @@ public class Person {
         this.age = age;
     }
 
-    // Methods
+    // Methods = function = actions
 
     public void sayHello() {
         System.out.println("Hello my name is: " + name + " ,and i have: " + age + " years old.");
