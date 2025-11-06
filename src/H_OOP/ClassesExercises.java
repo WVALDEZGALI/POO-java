@@ -31,5 +31,16 @@ public class ClassesExercises {
         var student = new Student(60);
         System.out.println();
         student.studentScore();
+
+        System.out.println();
+        System.out.println("6. Creates a BankAccount class with balance attribute and a deposit() method that add up the balance.");
+        var bankAccount = new BankAccount(500);
+        int amount = 300;
+        System.out.println();
+        System.out.println("Initial balance " + bankAccount.balance);
+        System.out.println("Deposited value " + amount);
+        bankAccount.deposit(amount);
+        System.out.println("Total balance " + bankAccount.balance);
+
     }
 }

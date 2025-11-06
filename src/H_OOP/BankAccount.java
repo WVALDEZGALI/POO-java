@@ -2,15 +2,15 @@ package H_OOP;
 
 public class BankAccount {
 
-    Integer balance;
+    int balance;
 
-    public BankAccount(Integer balance){
+    public BankAccount(int balance){
         this.balance = balance;
     }
 
-    public Integer deposit(Integer num){
-        int total = num + balance;
-        return total;
+    public int deposit(int amount){
+        balance = balance + amount;
+        return balance;
     }
 
 }
